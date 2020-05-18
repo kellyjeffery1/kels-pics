@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Card from './components/Card';
+import Like from './components/Like'
+import ImageUpload from './components/ImageUpload';
 
 class App extends Component {
 	render() {
@@ -24,6 +26,8 @@ class App extends Component {
 						number: '07391023624'
 					}}
 				/>
+				<Like />
+				<ImageUpload/>
 			</div>
 		);
 	}
