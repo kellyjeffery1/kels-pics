@@ -2,9 +2,12 @@ import React, { Component } from 'react'
 import axios from 'axios'
 
 class ImageUpload extends Component {
+    constructor() {
+        super()
+        this.state = {
+            selectedFiles: null
 
-    state = {
-        selectedFiles: null
+        }
     }
 
     fileSelectedHandler = event => {

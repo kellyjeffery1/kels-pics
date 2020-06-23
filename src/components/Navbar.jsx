@@ -1,32 +1,36 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-class Navbar extends Component {
-	render() {
-		let linksMarkUp = this.props.links.map((link, index) => {
-			return (
-				<li className="menu__list-item">
-					<a className="menu__link menu__link--active" href={link.link}>
-						{link.label}
-					</a>
-				</li>
-			);
-		});
-		return (
-			<div className="container center">
-				<nav className="menu">
-					<div className="menu__right">
-						<ul className="menu__list">{linksMarkUp}</ul>
-
-						<button className="menu__search-button" />
-
-						<form className="menu__search-form hide" method="POST">
-							<input className="menu__search-input" placeholder="Type and hit enter" />
-						</form>
-					</div>
-				</nav>
+function Navbar() {
+	return (
+		<nav className="nav">
+			<div className="menu__right">
+				<ul className="nav-links">
+					<Link to="/">
+						<li className="nav-links-item one">
+							<p>HOME</p>
+						</li>
+					</Link>
+					<Link to="/Portfolio">
+						<li className="nav-links-item two">
+							<p>PORTFOLIO</p>
+						</li>
+					</Link>
+					<Link to="/About">
+						<li className="nav-links-item three">
+							<p>ABOUT</p>
+						</li>
+					</Link>
+					<Link to="/Contact">
+						<li className="nav-links-item four">
+							<p>CONTACT</p>
+						</li>
+					</Link>
+					<hr />
+				</ul>
 			</div>
-		);
-	}
+		</nav>
+	);
 }
 
 export default Navbar;
