@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 class PortHeader extends Component {
 	render() {
 		return (
-			<div>
+			<div className='header-section'>
 				<div class="custom-shape-divider-top-1592842874">
 					<svg
 						data-name="Layer 1"
@@ -13,11 +13,9 @@ class PortHeader extends Component {
 						<path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill" />
 					</svg>
 				</div>
-
-				<div className="portfolio-title">
-					<h1>POR</h1>
-					<h1 className="second-name">
-						TFOLIO
+				<div className="port-title-container">
+					<h1 className="portfolio-title">
+						PORTFLOIO
 						<span className="full-stop" style={{ color: '#CA8DFB' }}>
 							.
 						</span>

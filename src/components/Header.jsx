@@ -7,8 +7,8 @@ function Header() {
 			<div className="right-pannel" />
 
 			<div className="title">
-				<h1>KE</h1>
-				<h1 className="second-name">
+				<h1 className="first-title">KE</h1>
+				<h1 className="second-title">
 					LLY
 					<span className="full-stop" style={{ color: '#CA8DFB' }}>
 						.
