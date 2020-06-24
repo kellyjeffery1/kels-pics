@@ -4,6 +4,7 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.css';
 import './Style.css';
 import './assests/home.css';
+import './assests/about.css';
 import './assests/portfolio.css';
 
 

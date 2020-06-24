@@ -1,6 +1,15 @@
-import React from 'react'
-
-function About() {
-  return <h2>About this is a new page</h2>;
+import React, { Component } from 'react';
+import AboutHeader from './components/AboutHeader';
+import AboutCard from './components/AboutCard';
+class About extends Component {
+	render() {
+		return (
+			<div>
+				<AboutHeader />
+				<AboutCard />
+			</div>
+		);
+	}
 }
+
 export default About;

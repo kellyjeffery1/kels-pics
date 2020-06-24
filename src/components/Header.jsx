@@ -8,9 +8,9 @@ function Header() {
 			<div className="right-pannel" />
 
 			<div className="title">
-				<h1 className="first-title">KE</h1>
+				{/* S> */}
 				<h1 className="second-title">
-					LLY
+				KELLY
 					<span className="full-stop" style={{ color: '#CA8DFB' }}>
 						.
 					</span>
