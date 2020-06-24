@@ -8,22 +8,22 @@ function Navbar() {
 				<ul className="nav-links">
 					<Link to="/">
 						<li className="nav-links-item one">
-							<p>HOME</p>
+							<p className="nav-title">HOME</p>
 						</li>
 					</Link>
 					<Link to="/Portfolio">
 						<li className="nav-links-item two">
-							<p>PORTFOLIO</p>
+							<p className="nav-title">PORTFOLIO</p>
 						</li>
 					</Link>
 					<Link to="/About">
 						<li className="nav-links-item three">
-							<p>ABOUT</p>
+							<p className="nav-title">ABOUT</p>
 						</li>
 					</Link>
 					<Link to="/Contact">
 						<li className="nav-links-item four">
-							<p>CONTACT</p>
+							<p className="nav-title">CONTACT</p>
 						</li>
 					</Link>
 					<hr />

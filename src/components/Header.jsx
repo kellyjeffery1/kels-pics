@@ -2,6 +2,7 @@ import React from 'react';
 
 function Header() {
 	return (
+	
 		<header className="pannels">
 			<div className="left-pannel" />
 			<div className="right-pannel" />
