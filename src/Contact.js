@@ -1,9 +1,13 @@
 import React from 'react';
+import ContactButton from './components/ContactButton';
+import ContactHeader from './components/ContactHeader';
+
 
 function Contact() {
 	return (
 		<div>
-			<h1>Hi there</h1>
+			<ContactHeader />
+			<ContactButton/>
 		</div>
 	);
 }
