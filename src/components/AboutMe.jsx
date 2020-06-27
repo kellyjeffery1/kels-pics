@@ -7,7 +7,7 @@ class AboutMe extends Component {
 			<div className="aboutMe-section">
 				<Container fluid>
 					<Row>
-						<Col>
+						<Col sm={6}>
 							<div className="about-text-conatiner1">
 								<p>
 									Front end developer looking to continue an exciting and challenging journey in the
@@ -18,7 +18,7 @@ class AboutMe extends Component {
 								</p>
 							</div>
 						</Col>
-						<Col>
+						<Col sm={6}>
 							<div className="about-text-conatiner2">
 								<p>
 									An intensive coding school with an entrepreneurial focus. Worked in small tech

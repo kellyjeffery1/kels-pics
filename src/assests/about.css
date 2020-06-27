@@ -1,4 +1,4 @@
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
 
 .custom-shape-divider-top-1593002502 {
 	/* position: absolute; */
@@ -77,9 +77,10 @@
 }
 .aboutMe-section {
 	position: relative;
-	margin: 130px;
+	margin-top: 10%;
+	margin-bottom: 10%;
 	height: 450px;
-	width: 80%;
+	width: 100%;
 	background-color: white;
 	border-radius: 3%;
 }
@@ -112,7 +113,7 @@
 	border-radius: 100%;
 	z-index: 1;
 }
-.contact-button{
+.contact-button {
 	margin: 20px;
 	font-family: 'Oswald', sans-serif;
 	background-color: #1f0322;
@@ -128,7 +129,7 @@
 .contact-button:hover {
 	transform: scale(1.3);
 }
-.top-button{
+.top-button {
 	font-family: 'Oswald', sans-serif;
 	background-color: #1f0322;
 	color: white;
@@ -168,9 +169,29 @@
 	}
 	.about-title {
 		font-size: 72px;
-		margin-left: 4%;
+		margin-left: 14%;
+		margin-top: 17%;
 	}
-	.about-title-container {
-		left: 3%;
+	.image1 {
+		margin-left: 20%;
+	}
+	.image2 {
+		margin-left: 20%;
+	}
+	.picture-section {
+		margin-top: 30%;
+	}
+	.aboutMe-section {
+		margin: 0px;
+		width: 100%;
+	}
+	.about-footer {
+		bottom: 0;
+		width: 100%;
+		margin-top: 50%;
+	}
+	.about-text-conatiner1 {
+	}
+	.about-text-conatiner2 {
 	}
 }
