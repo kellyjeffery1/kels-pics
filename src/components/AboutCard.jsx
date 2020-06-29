@@ -11,7 +11,9 @@ class AboutCard extends Component {
 								<img
 									className="image1"
 									alt="something"
-									src="https://images.unsplash.com/photo-1453814235491-3cfac3999928?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+									src="./images/IMG_1118.jpeg"
+									height='40%'
+									width="60%"
 								/>
 							</div>
 						</Col>
@@ -20,7 +22,10 @@ class AboutCard extends Component {
 								<img
 									className="image2"
 									alt="something"
-									src="https://images.unsplash.com/photo-1534759926787-89fa60f35848?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+									src="./images/IMG_1912.jpg"
+									height='40%'
+									width="60%"
+							
 								/>
 							</div>
 						</Col>
@@ -31,7 +36,10 @@ class AboutCard extends Component {
 								<img
 									className="image1"
 									alt="something"
-									src="https://images.unsplash.com/photo-1529641484336-ef35148bab06?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+									src="./images/IMG_3549.jpg"
+									height='40%'
+									width="60%"
+						
 								/>
 							</div>
 						</Col>
@@ -40,7 +48,10 @@ class AboutCard extends Component {
 								<img
 									className="image2"
 									alt="something"
-									src="https://images.unsplash.com/photo-1433888104365-77d8043c9615?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80"
+									src="./images/IMG_6011.jpg"
+									height='40%'
+									width="60%"
+			
 								/>
 							</div>
 						</Col>

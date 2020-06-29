@@ -49,27 +49,31 @@
 
 .slides .slick-prev {
 	left: 5%;
+	background-color: pink;
 }
 
 .slides .slick-next {
 	right: 20%;
+	background-color: pink;
 }
 .carousel {
-	margin-top: 40%;
+	margin-top: 35%;
 	margin-left: 15%;
 }
 .image {
 	width: 85%;
-	height: 40%;
+	height: 60%;
 	border-radius: 5%;
 }
 .carousel-section {
-	position: relative;
+	/* position: relative; */
+	position: absolute;
+	display: block;
 	width: 100%;
-	height: 90px;
+
 }
 .bookmark-container {
-	margin-top: 40%;
+	margin-top: 30%;
 }
 .bookmark-title {
 	font-family: 'Roboto', sans-serif;
@@ -78,22 +82,49 @@
 	color: #1f0322;
 }
 .bookmark-paragraph {
-	margin-top: 3%;
+	margin-top: 4%;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+	color: #1f0322;
+	width: 80%;
 }
 
-.airbaby-section {
+.bookmark-section{
+	margin-bottom: 10%;
+
+	/* s */
+}
+.parallax {
+    position: relative;
+    z-index: 1;
+}
+.parallax:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('https://images.unsplash.com/photo-1546299138-b9760c08bb3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80') center center;
+    opacity: .4;
+}
+/* .airbaby-section {
 	width: 100%;
 	height: 90%;
 	background-color: white;
-}
+} */
 .footer {
-	position: absolute;
-	display: inline-block;
-	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
-	height: 80px;
-	margin: 0 auto;
-	background-color: blue;
+	height: 200px;
+	background-color: #e59500;
+	margin-top: 15%;
+	
+	
 }
 
 @media only screen and (max-width: 600px) {

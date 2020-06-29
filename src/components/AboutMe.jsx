@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import { Parallax } from 'react-parallax'
 
 class AboutMe extends Component {
 	render() {
 		return (
+			<Parallax strength={500}>
 			<div className="aboutMe-section">
 				<Container fluid>
 					<Row>
@@ -33,7 +35,8 @@ class AboutMe extends Component {
 						</Col>
 					</Row>
 				</Container>
-			</div>
+				</div>
+				</Parallax>
 		);
 	}
 }
