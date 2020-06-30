@@ -12,21 +12,14 @@ class AboutCard extends Component {
 									className="image1"
 									alt="something"
 									src="./images/IMG_1118.jpeg"
-									height='40%'
+									height="40%"
 									width="60%"
 								/>
 							</div>
 						</Col>
 						<Col sm={6}>
 							<div>
-								<img
-									className="image2"
-									alt="something"
-									src="./images/IMG_1912.jpg"
-									height='40%'
-									width="60%"
-							
-								/>
+								<img className="image3" alt="something" src="./images/IMG_1912.jpg" />
 							</div>
 						</Col>
 					</Row>
@@ -37,9 +30,8 @@ class AboutCard extends Component {
 									className="image1"
 									alt="something"
 									src="./images/IMG_3549.jpg"
-									height='40%'
+									height="40%"
 									width="60%"
-						
 								/>
 							</div>
 						</Col>
@@ -49,9 +41,8 @@ class AboutCard extends Component {
 									className="image2"
 									alt="something"
 									src="./images/IMG_6011.jpg"
-									height='40%'
+									height="40%"
 									width="60%"
-			
 								/>
 							</div>
 						</Col>

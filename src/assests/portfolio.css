@@ -49,20 +49,20 @@
 
 .slides .slick-prev {
 	left: 5%;
-	background-color: pink;
+	color: #1f0322;
 }
 
 .slides .slick-next {
-	right: 20%;
-	background-color: pink;
+	right: 23%;
+	color: #9c5fa3;
 }
 .carousel {
 	margin-top: 35%;
 	margin-left: 15%;
 }
 .image {
-	width: 85%;
-	height: 60%;
+	width: 450px;
+	height: 300px;
 	border-radius: 5%;
 }
 .carousel-section {
@@ -70,7 +70,6 @@
 	position: absolute;
 	display: block;
 	width: 100%;
-
 }
 .bookmark-container {
 	margin-top: 30%;
@@ -90,31 +89,41 @@
 	width: 80%;
 }
 
-.bookmark-section{
+.bookmark-section {
 	margin-bottom: 10%;
 
 	/* s */
 }
-.parallax {
-    position: relative;
-    z-index: 1;
+
+.airbaby-container {
+	margin-top: 15%;
 }
-.parallax:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: url('https://images.unsplash.com/photo-1546299138-b9760c08bb3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80') center center;
-    opacity: .4;
+.airbaby-title {
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: #1f0322;
+	margin-left: 18%;
+	margin-bottom: 5%;
 }
-/* .airbaby-section {
-	width: 100%;
-	height: 90%;
-	background-color: white;
-} */
+.airbaby-paragraph {
+	margin-top: 0%;
+	margin-left: 18%;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+	color: #1f0322;
+	width: 80%;
+}
+.airbaby-carousel {
+	margin-top: 20%;
+	margin-left: 10%;
+}
+
+.bookmark-section {
+	margin-bottom: 10%;
+}
+
 .footer {
 	display: flex;
 	justify-content: center;
@@ -123,8 +132,20 @@
 	height: 200px;
 	background-color: #e59500;
 	margin-top: 15%;
-	
-	
+}
+a {
+	text-decoration: none;
+	color: #a30b37;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+a:hover {
+	text-decoration: none;
+	color: #1f0322;
+}
+.airbaby-image {
+	height: 300px;
+	width: 450px;
 }
 
 @media only screen and (max-width: 600px) {

@@ -9,7 +9,7 @@ import 'slick-carousel/slick/slick-theme.css';
 class Portfolio extends Component {
 	render() {
 		return (
-			<div>
+			<div className='page'>
 				<PortfolioHeader />
 				<PortfolioCarousel />
 				<Airbaby/>

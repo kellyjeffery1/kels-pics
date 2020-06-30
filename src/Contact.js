@@ -5,7 +5,7 @@ import ContactHeader from './components/ContactHeader';
 
 function Contact() {
 	return (
-		<div>
+		<div  className='page'>
 			<ContactHeader />
 			<ContactButton/>
 		</div>

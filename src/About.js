@@ -6,7 +6,7 @@ import AboutMe from './components/AboutMe';
 class About extends Component {
 	render() {
 		return (
-			<div>
+			<div  className='page'>
 				<AboutHeader />
 				<AboutCard />
 				<AboutMe />
