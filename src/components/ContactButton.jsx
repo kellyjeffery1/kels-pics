@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
+
 class ContactButtons extends Component {
 	render() {
 		return (
@@ -11,30 +12,30 @@ class ContactButtons extends Component {
 							<div className="SM-buttons">
 								<ul className="contact-ul">
 									<li className="contact-li">
-										<a target="blank" href="http://www.bkmthis.com/">
+										<a target="blank" href="https://github.com/kellyjeffery1">
 											<span />
 											<span />
 											<span />
 											<span />
-											<span class="fa fa-facebook" />
+											<span className="fa fa-github"/>
 										</a>
 									</li>
 									<li className="contact-li">
-										<a target="blank" href="http://www.bkmthis.com/">
+										<a target="blank" href="https://twitter.com/home">
 											<span />
 											<span />
 											<span />
 											<span />
-											<span class="fa fa-twitter" />
+											<span className="fa fa-twitter" />
 										</a>
 									</li>
 									<li className="contact-li">
-										<a target="blank" href="http://www.bkmthis.com/">
+										<a target="blank" href="https://www.instagram.com/?hl=en">
 											<span />
 											<span />
 											<span />
 											<span />
-											<span class="fa fa-instagram" />
+											<span className="fa fa-instagram" />
 										</a>
 									</li>
 									<li className="contact-li">
@@ -43,7 +44,7 @@ class ContactButtons extends Component {
 											<span />
 											<span />
 											<span />
-											<span class="fa fa-linkedin" />
+											<span className="fa fa-linkedin" />
 										</a>
 									</li>
 								</ul>

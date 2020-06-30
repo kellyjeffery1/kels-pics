@@ -64,7 +64,7 @@
 }
 .image3 {
 	width: 60%;
-	height: 281px;
+	height: 278px;
 	border-radius: 5%;
 	margin: 15px;
 	transition: all .2s ease-in-out;
@@ -90,8 +90,6 @@
 .aboutMe-section {
 	position: relative;
 	z-index: 1;
-}
-.first-about-container {
 	margin-top: 12%;
 	margin-left: 14%;
 	width: 73%;
@@ -99,7 +97,6 @@
 	background-color: whitesmoke;
 	border-radius: 3%;
 }
-
 .about-text-conatiner1 {
 	font-size: 1.1rem;
 	font-family: 'Oswald', sans-serif;
@@ -107,16 +104,18 @@
 	color: #1f0322;
 	letter-spacing: 0.5px;
 	width: 80%;
-	margin: 20px;
+	margin-top: 7%;
+	margin-left: 8%;
 }
 
 .about-text-conatiner2 {
+	margin-top: 7%;
 	font-size: 1.1rem;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 500;
 	color: #1f0322;
 	letter-spacing: 0.5px;
-	width: 90%;
+	width: 95%;
 }
 
 .scroll-to-top {
@@ -201,7 +200,9 @@
 	.aboutMe-section {
 		margin: 0px;
 		width: 100%;
-		margin-top: 20%;
+		height: 100%;
+		margin-top: 0%;
+		border-radius: none;
 	}
 	.about-footer {
 		bottom: 0;
@@ -211,9 +212,12 @@
 	.about-text-conatiner1 {
 		margin-left: 5px;
 		width: 100%;
+		margin-top: 0px;
+		
 	}
 	.about-text-conatiner2 {
 		margin-left: 5px;
 		width: 100%;
+		margin-top: 0px;
 	}
 }
