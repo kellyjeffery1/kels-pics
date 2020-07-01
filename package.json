@@ -1,7 +1,7 @@
 {
   "name": "kels-pics",
   "version": "0.1.0",
-   "engines": {
+  "engines": {
     "node": "12.x"
   },
   "private": true,
@@ -52,4 +52,3 @@
     "node-sass": "^4.14.1"
   }
 }
-
