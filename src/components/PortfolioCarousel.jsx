@@ -39,7 +39,9 @@ class PortfolioCarousel extends Component {
 						</Col>
 						<Col sm={6}>
 							<div className="bookmark-container">
-								<h2 className="bookmark-title">BOOKMARK</h2>
+								<h2 className="bookmark-title">BOOKMARK
+									<span className="full-stop" style={{ color: '#CA8DFB' }}>.</span>
+								</h2>
 								<p className="bookmark-paragraph">
 									Bookmark, an app where you find recommendations and opinions from the people you
 									trust. The app built with Ruby on Rails,HTML, SCSS, Ajax, Active Record, JavaScript,

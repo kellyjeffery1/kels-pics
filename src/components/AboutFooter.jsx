@@ -9,9 +9,15 @@ class AboutFooter extends Component {
 			<footer className="about-footer">
 				<ScrollButton />
 				<Link to="/Contact">
-					<button className="contact-button">
-                           contact
-					</button>
+					<ul className="contact-ul">
+						<li className="contact-li">
+							<span />
+							<span />
+							<span />
+							<span />
+							<span className="fa fa-copyright" />
+						</li>
+					</ul>
 				</Link>
 			</footer>
 		);

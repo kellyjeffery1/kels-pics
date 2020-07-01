@@ -177,12 +177,15 @@
 	}
 	.contact-information {
 		margin-top: 30px;
-		margin-left: 8%;
+		margin-left: 0%;
 	}
 	.text-container-information {
 		margin-left: 0%;
 	}
 	.email-container-information {
-		margin-left: 7%;
+		margin-left: 4%;
+	}
+	.contact-ul{
+		margin: 0px;
 	}
 }

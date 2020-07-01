@@ -19,16 +19,16 @@ class Airbaby extends Component {
 		return (
 			<div className="airbaby-section">
 				<Parallax
-					bgImage="https://images.unsplash.com/photo-1497412159286-98933a0e327f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1919&q=80"
+					bgImage="https://images.unsplash.com/photo-1514477917009-389c76a86b68?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1861&q=80"
 					strength={500}
 				>
-					<div style={{ height: 600 }}>
+					<div style={{ height: 700 }}>
 						<div className="airbaby-section">
 							<Container fluid>
 								<Row>
 									<Col sm={6}>
 										<div className="airbaby-container">
-											<h2 className="airbaby-title">AIRBABY</h2>
+											<h2 className="airbaby-title">AIRBABY<span className="full-stop" style={{ color: '#CA8DFB' }}>.</span></h2>
 											<p className="airbaby-paragraph">
 												<p>
 													AirBaby,A market place targeted at money savvy young parents who can

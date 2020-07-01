@@ -19,7 +19,7 @@ import { Container, Row, Col } from 'reactstrap';
                                     <h3>Message board
                                         <span className="full-stop" style={{ color: '#CA8DFB' }}>. </span>
                                     </h3>
-								    <p>
+								    <p className='project-paragraph'>
 								     A React frontend app where users can upload blogs, read other users blogs and leave comments.
                                     Gained an insight into Reacts component based library, one-directional dataflow and additional add-ons such as React Router,
                                      Redux and Styled- Component.
@@ -31,7 +31,7 @@ import { Container, Row, Col } from 'reactstrap';
                                     <h3>Meme Generator
                                         <span className="full-stop" style={{ color: '#CA8DFB' }}>. </span>
                                     </h3>
-                                    <p>
+                                    <p className='project-paragraph'>
                                       A React app where users are able to create and save their own memes. When creating this app I gained more knowledge on using restful APIs and anxious.
 									</p>
 								</div>
@@ -41,7 +41,7 @@ import { Container, Row, Col } from 'reactstrap';
                                     <h3>Checklist
                                         <span className="full-stop" style={{ color: '#CA8DFB' }}>. </span>
                                     </h3>
-									<p>
+                                    <p className='project-paragraph'>
 									 A React frontend app where users can upload blogs, read other users blogs and leave comments.
                                     Gained an insight into Reacts component based library, one-directional dataflow and additional add-ons such as React Router,
                                      Redux and Styled- Component.
