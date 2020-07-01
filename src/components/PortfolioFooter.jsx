@@ -7,10 +7,19 @@ class PortfolioFooter extends Component {
 		return (
 			<footer className="footer">
 				<ScrollButton />
+			
 				<Link to="/Contact">
-					<button className="contact-button">
-                           contact
-					</button>
+					<ul className="contact-ul">
+						<li className="contact-li">
+						
+								<span />
+								<span />
+								<span />
+								<span />
+								<span className="fa fa-address-boo" />
+					
+						</li>
+					</ul>	
 				</Link>
 			</footer>
 		);

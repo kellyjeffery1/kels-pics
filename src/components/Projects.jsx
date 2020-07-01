@@ -32,10 +32,7 @@ import { Container, Row, Col } from 'reactstrap';
                                         <span className="full-stop" style={{ color: '#CA8DFB' }}>. </span>
                                     </h3>
                                     <p>
-                                        A React frontend app where users can upload blogs, read other users blogs and leave comments.
-                                    Gained an insight into Reacts component based library, one-directional dataflow and additional add-ons such as React Router,
-                                     Redux and Styled- Component.
-									
+                                      A React app where users are able to create and save their own memes. When creating this app I gained more knowledge on using restful APIs and anxious.
 									</p>
 								</div>
                             </Col>

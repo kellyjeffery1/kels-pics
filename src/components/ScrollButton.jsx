@@ -20,7 +20,16 @@ const ScrollButton = () => {
         return false;
     }
     return (
-            <button className="top-button scroll-to-top" onClick={scrollToTop}>TOP</button>
+        <ul className="contact-ul">
+            <li className=" scroll-to-top contact-li" onClick={scrollToTop}> 
+                    <span />
+                    <span />
+                    <span />
+                    <span />
+                    <span className="fa fa-arrow-up" />
+            </li>
+        </ul>	
+           
 	);
 };
 export default ScrollButton;
