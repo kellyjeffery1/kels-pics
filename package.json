@@ -1,6 +1,9 @@
 {
   "name": "kels-pics",
   "version": "0.1.0",
+   "engines": {
+    "node": "12.x"
+  },
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.1",
@@ -49,3 +52,4 @@
     "node-sass": "^4.14.1"
   }
 }
+
