@@ -10,13 +10,22 @@ class PortfolioFooter extends Component {
 				<Link to="/Contact">
 					<ul className="contact-ul">
 						<li className="contact-li">
-								<span />
-								<span />
-								<span />
-								<span />
-								<span className="fa fa-copyright" />
+							<span />
+							<span />
+							<span />
+							<span />
+							<span className="fa fa-copyright" />
 						</li>
-					</ul>	
+						<li className="contact-li">
+							<a target="blank" href="https://github.com/kellyjeffery1">
+								<span />
+								<span />
+								<span />
+								<span />
+								<span className="fa fa-github" />
+							</a>
+						</li>
+					</ul>
 				</Link>
 			</footer>
 		);

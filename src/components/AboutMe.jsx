@@ -10,7 +10,7 @@ class AboutMe extends Component {
 					bgImage="https://images.unsplash.com/photo-1497412159286-98933a0e327f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1919&q=80"
 					strength={500}
 				>
-					<div style={{ height: 700 }}>
+					<div className="parralax">
 						<div className="aboutMe-section">
 							<Container fluid>
 								<Row>
@@ -29,14 +29,14 @@ class AboutMe extends Component {
 									<Col sm={6}>
 										<div className="about-text-conatiner2">
 											<p>
-												I attended an intensive coding school with an entrepreneurial focus. Worked in
-												small tech teams, collaborating through Github, Trello and Figma.
-												Exposed to the tech workflow with regular sprints, stand-ups and demos.
-												Taught the following technologies: Javascript, Ruby, Ruby On Rails
-												(framework), HTML5, CSS/sass, and Bootstrap. In the final three weeks,
-												built two detailed web applications from start to finish and presented
-												the final Minimum Viable Product in front of 300+ people at the Barbican
-												Center.
+												I attended an intensive coding school with an entrepreneurial focus.
+												Worked in small tech teams, collaborating through Github, Trello and
+												Figma. Exposed to the tech workflow with regular sprints, stand-ups and
+												demos. Taught the following technologies: Javascript, Ruby, Ruby On
+												Rails (framework), HTML5, CSS/sass, and Bootstrap. In the final three
+												weeks, built two detailed web applications from start to finish and
+												presented the final Minimum Viable Product in front of 300+ people at
+												the Barbican Center.
 											</p>
 										</div>
 									</Col>

@@ -148,37 +148,40 @@ a:hover {
 	width: 450px;
 	border-radius: 5%;
 }
-.project-section{
+.project-section {
 	margin-top: 5%;
 	margin-left: 5%;
 }
 
-.project-title{
+.project-title {
 	margin-top: 7%;
 	margin-left: 0%;
 	font-size: 60px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 }
-.messageBoard-conatiner{
+.messageBoard-conatiner {
 	margin-top: 5%;
 	width: 80%;
 	font-family: 'Roboto', sans-serif;
 }
-.meme-container{
+.meme-container {
 	margin-top: 5%;
 	width: 80%;
 	font-family: 'Roboto', sans-serif;
 }
-.check-container{
+.check-container {
 	margin-top: 5%;
 	width: 80%;
 	font-family: 'Roboto', sans-serif;
 }
-.project-paragraph{
+.project-paragraph {
 	margin-top: 10px;
 }
 
+.airbaby-parallax {
+	height: 300px;
+}
 
 @media only screen and (max-width: 600px) {
 	.custom-shape-divider-top-1592842874 {
@@ -206,25 +209,25 @@ a:hover {
 		padding: 37px;
 		width: 100%;
 	}
-	.bookmark-paragraph{
+	.bookmark-paragraph {
 		width: 115%;
 	}
 	.airbaby-container {
 		margin-top: 0%;
 		padding: 10px;
 	}
-	.image3{
-    height: 152px;
-	margin-left: 19%;
+	.image3 {
+		height: 152px;
+		margin-left: 19%;
 	}
-	.airbaby-section{
+	.airbaby-section {
 		margin: 0px;
-    	width: 100%;
-   	   height: 100%;
-   		margin-top: 0%;
+		width: 100%;
+		height: 100%;
+		margin-top: 0%;
 	}
-	.image{
+	.image {
 		height: 255px;
-		width: 310px
+		width: 310px;
 	}
 }
